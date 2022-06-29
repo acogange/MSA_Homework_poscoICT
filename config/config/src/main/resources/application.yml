@@ -1,0 +1,11 @@
+
+server:
+  port: 7000
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/acogange/posco_MSA.git
